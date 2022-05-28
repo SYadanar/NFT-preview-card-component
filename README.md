@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](.design/screenshot.png)
+![](design/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html-custom-css-and-bootstrap-RMgOlYiTFc)
+- Live Site URL: [URL here](https://nft-preview-card-component-wine-iota.vercel.app/)
 
 ## My process
 
