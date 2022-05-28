@@ -30,8 +30,41 @@ body{
 	border-radius: 15px;
 }
 
-.card-img-top:hover{
-	
+.container{
+	position: relative;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.card-img-top, .overlay{
+	border-radius: 10px;
+}
+
+.container .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	background-color: var(--cyan);
+
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.container .overlay-img{
+	position: absolute;
+	display: none;
+}
+
+.container:hover .overlay{
+	opacity: 0.5;
+}
+
+.container:hover .overlay-img{
+	display: block;
 }
 
 .card-text{
@@ -59,9 +92,20 @@ body{
 
 .creator-area img{
 	width: 40px;
-	border: 2px solid white;
+	border: 2px solid var(--white);
 }
 
+.creator-name{
+	color: var(--white);
+}
+
+.container, .card-title, .creator-name{
+	cursor: pointer;
+}
+
+.card-title:hover, .creator-name:hover{
+	color: var(--cyan);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
