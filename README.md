@@ -87,5 +87,5 @@ I have learnt how to add overlay to images on hover.
 
 ## Author
 
-- GitHub - [SYadanar]https://github.com/SYadanar)
+- GitHub - [SYadanar](https://github.com/SYadanar)
 - Frontend Mentor - [@SYadanar](https://www.frontendmentor.io/profile/SYadanar)
